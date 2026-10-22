@@ -4,3 +4,5 @@ llamamos boton de panico, que nos permite interrumpir la accion del motor antes 
 que choque con el final de la pecera en caso de darle una acción errónea.
 
 La version actual en uso es la de "rampa timer suave". Su diferencia es que la rampa de velocidad usada ahora tiene una union suave y continua con la sección de velocidad constante, esto evita aceleraciones repentinas que ocurrían en las primeras mediciones que hicimos que agregaban inestabilidades al sistema.  
+
+El código "medir_automático" es el scrip de python que armamos para controlar simultáneamente la cámara y el motor. Se encarga de ir cambiando las velocidades y de grabar videos en los momentos necesarios, a su vez los guarda en orden y con la velocidad correspondiente en el nombre del video.
